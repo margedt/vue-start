@@ -1,4 +1,10 @@
 <template>
+  <header>
+    <nav class="flex gap-8">
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/list">List</RouterLink>
+    </nav>
+  </header>
   <RouterView />
 </template>
 
